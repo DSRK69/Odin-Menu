@@ -1,0 +1,38 @@
+#container {
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.slide-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  display: none;
+}
+
+.visible {
+  display: block;
+  width: 200px;
+  height: 200px;
+}
+
+.dot-selected {
+  color: red;
+}
+
+.slide-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
