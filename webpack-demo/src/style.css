@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "font1";
+  src: url("./Namecat.otf");
+}
+
+.hello {
+  color: red;
+  font-family: "font1";
+}
